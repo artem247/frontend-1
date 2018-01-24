@@ -1,0 +1,48 @@
+.header {
+	background: radial-gradient( circle, #355936, #4c7b4e);
+}
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+.menu {
+
+}
+
+.logo {
+	display: inline-block;
+	padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.logo-icon {
+		
+	
+}
+
+.navigation {
+	display: inline-block;
+	color: white;
+	text-align: right;
+}
+
+.nav-list {
+	display: inline-block;
+}
+
+.main-menu-item {
+	display: inline-block;
+	padding: 14px;
+}
+
+.logo-type {
+	font-family: sans-serif;
+	    padding-left: 10px;
+    font-size: 44px;
+    line-height: 40px;
+    vertical-align: inherit;
+    font-family: sans-serif;
+    color: white;
+
+}

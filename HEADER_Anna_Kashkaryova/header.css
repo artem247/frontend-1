@@ -1,0 +1,128 @@
+clearfix::after,
+.container-menu::after,
+.section-aboutme::after {
+	content: '';
+	clear: both;
+	display: table;
+	overflow: hidden;
+}
+
+.section-header {
+	background-image: url('bg/sunset.png');
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+}
+
+.arrow-down {
+	position: fixed;
+	top:  70px;
+	right:  45px;
+	width: 52px;
+	height: 45px;
+	border:  none;
+	background-color: #36b7b3;
+}
+
+.main-logo {
+	
+}
+
+.main-logo img {
+	margin: 155px auto;
+}
+
+.triangle-down {
+	width: 32px;
+	height: 32px;
+	background-color: #36b7b3;
+	border: none;
+	border-radius: 50px;
+	margin: 115px auto;
+}
+
+.triangle-down img {
+	margin-top: 5px;
+}
+
+.section-mainmenu {
+	border: 1px solid #36b7b3;
+	background-color: #36b7b3;
+}
+
+.container-menu {
+	margin: 13px auto;
+	text-align: center;
+}
+
+.main-menu-item {
+	display: inline-block;
+	list-style-type: none;
+	color: #f8f8f8;
+	font-family: Helvetica;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 13px;
+}
+
+.main-menu-item:hover {
+	background-color: #d55727;
+}
+
+.section-aboutme {
+	padding: 60px 200px;
+	text-align: center;
+	margin: 0 100px;
+	position: relative;
+}
+
+h2 {
+	font-family: Raleway;
+	font-size: 40px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.aboutme-txt {
+	text-align: left;
+	width: 280px;
+	float: left;
+	font-family: Helvetica;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 100px 0;
+}
+
+.aboutme-img-first {
+	position: absolute;
+	z-index: -3;
+	top:  200px;
+	right: 160px;
+	opacity: 0.7;
+}
+
+.aboutme-img-first-copy {
+	position: absolute;
+	z-index: -2;
+	top:  200px;
+	right: 160px;
+	opacity: 0.7;
+}
+
+.aboutme-img-second {
+	position: absolute;
+	z-index: -5;
+	top:  30px;
+	right: 20px;
+}
+
+.aboutme-img-third {
+	position: absolute;
+	z-index: -4;
+	top:  15px;
+	right: 0;
+}

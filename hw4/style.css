@@ -1,0 +1,104 @@
+.bg {
+	background-image: url(assets/bg.jpg);
+	/**height: 1000px;*/
+	overflow: hidden;
+	background-size: cover;
+}
+
+.box {
+	width: 20%;
+	margin: 10px auto;
+}
+
+figure {
+	margin: 15px auto;
+	align-items: center;
+}
+
+.nam1 {
+	background-image: url(assets/rope-all.png);
+	background-position: 0 0 ;
+	width: 120px;
+	height: 120px;
+	margin: 50px auto;
+}
+
+.nam1:hover {
+	background-image: url(assets/rope-all.png);
+	background-position: -140px 0px; 
+	width: 120px;
+	height: 120px;
+}
+
+.nam1:active {
+	background-image: url(assets/rope-all.png);
+	background-position: -280px 0px; 
+	width: 120px;
+	height: 120px;
+}
+
+.nam2 {
+	background-image: url(assets/rope-all.png);
+	background-position: 0 -145px ;
+	width: 120px;
+	height: 120px;
+	margin: 50px auto;
+}
+
+.nam2:hover {
+	background-image: url(assets/rope-all.png);
+	background-position: -140px -145px; 
+	width: 120px;
+	height: 120px;
+}
+
+.nam2:active {
+	background-image: url(assets/rope-all.png);
+	background-position: -280px -145px	; 
+	width: 120px;
+	height: 120px;
+}
+
+.nam3 {
+	background-image: url(assets/rope-all.png);
+	background-position: 0 -280px ;
+	width: 120px;
+	height: 120px;
+	margin: 50px auto;
+}
+
+.nam3:hover {
+	background-image: url(assets/rope-all.png);
+	background-position: -140px -280px; 
+	width: 120px;
+	height: 120px;
+}
+
+.nam3:active {
+	background-image: url(assets/rope-all.png);
+	background-position: -280px -280px	; 
+	width: 120px;
+	height: 120px;
+}
+
+.nam4 {
+	background-image: url(assets/rope-all.png);
+	background-position: 0 -420px ;
+	width: 120px;
+	height: 120px;
+	margin: 50px auto;
+}
+
+.nam4:hover {
+	background-image: url(assets/rope-all.png);
+	background-position: -140px -420px; 
+	width: 120px;
+	height: 120px;
+}
+
+.nam4:active {
+	background-image: url(assets/rope-all.png);
+	background-position: -280px -420px	; 
+	width: 120px;
+	height: 120px;
+}
